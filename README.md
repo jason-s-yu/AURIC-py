@@ -30,7 +30,7 @@ Radiative Transfer 62 (1999) 689-742), adapted for Python.
     pip install dask matplotlib numpy xarray
     ```
 
-3. Run the desired python plotting tool in [./python/](./python)
+3. Run the desired python plotting tool in [python/](python)
 
     ```bash
     python <tool>.py
@@ -38,11 +38,11 @@ Radiative Transfer 62 (1999) 689-742), adapted for Python.
 
 ## Data
 
-The data used for this project is stored in [./data/](./data). NetCDF4 files are available in that directory, and the legacy binary files are in [./data/dat/](./data/dat) and [./data/int](./data/int).
+The data used for this project is stored in [data/](data). NetCDF4 files are available in that directory, and the legacy binary files are in [data/dat/](data/dat) and [data/int](data/int).
 
 Conversion code for each file is located in [convert.py](python/convert.py).
 
 ## IDL
 
-The legacy IDL plots and subroutines are stored in [./idl/](./idl)
+The legacy IDL plots and subroutines are stored in [idl/](idl)
 
