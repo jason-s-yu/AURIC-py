@@ -1,0 +1,32 @@
+Mandatory parameters:
+       NALT =        100 : number of altitude points
+        ZUB =    1000.00 : upper bound of atmosphere (km)
+      YYDDD =      92080 : year & day (YYDDD format)
+      UTSEC =   45000.00 : universal time (sec)
+       GLAT =      30.00 : latitude (deg)
+       GLON =       0.00 : longitude (deg)
+  SCALE(N2) =       1.00 : N2 density scale factor
+  SCALE(O2) =       1.00 : O2 density scale factor
+   SCALE(O) =       1.00 : O  density scale factor
+  SCALE(O3) =       1.00 : O3 density scale factor
+  SCALE(NO) =       1.00 : NO density scale factor
+   SCALE(N) =       1.00 : N  density scale factor
+  SCALE(He) =       1.00 : He density scale factor
+   SCALE(H) =       1.00 : H  density scale factor
+  SCALE(Ar) =       1.00 : Ar density scale factor
+Derived parameters:
+      GMLAT =      18.10 : geomagnetic latitude (deg)
+      GMLON =      74.40 : geomagnetic longitude (deg)
+      DPANG =      41.24 : magnetic dip angle (deg)
+        SZA =      30.42 : solar zenith angle (deg)
+        SLT =      12.38 : solar local time (hours)
+     F10DAY =     167.20 : F10.7 (current day)
+     F10PRE =     166.10 : F10.7 (previous day)
+     F10AVE =     179.00 : F10.7 (81-day average)
+      AP(1) =       4.13 : daily Ap
+      AP(2) =       3.00 : 3-hour Ap
+      AP(3) =       3.00 : 3-hour Ap
+      AP(4) =       6.00 : 3-hour Ap
+      AP(5) =       3.00 : 3-hour Ap
+      AP(6) =       3.63 : average 3-hour Ap
+      AP(7) =      13.25 : average 3-hour Ap

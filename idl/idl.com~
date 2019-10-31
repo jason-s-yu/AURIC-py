@@ -1,0 +1,15 @@
+#!/bin/sh
+env /opt/harris/envi54/idl/bin/idl << eof1
+.compile lib_new1.pro
+.compile lib_color.pro
+.compile color_key.pro
+.compile read_ozonesonde.pro
+.compile read_o3infiles.pro
+.compile read_logan.pro
+.compile read_o3.pro
+.compile read_geos_ps.pro
+.compile read_GEOSCHEMo3.pro
+.compile oploterror.pro
+.run ploto3.pro
+exit
+eof1

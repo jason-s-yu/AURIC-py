@@ -1,0 +1,3 @@
+FUNCTION FTOA, var, format
+RETURN, STRING(var,FORMAT=format)
+END

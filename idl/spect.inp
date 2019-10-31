@@ -1,0 +1,6 @@
+    800.0  starting wavelength     (A)
+  10000.0  stopping wavelength     (A)
+      1.0  wavelength grid spacing (A)
+      1.0  instrument resolution   (A)
+    400.0  rotational temperature  (K)
+    400.0  vibrational temperature (K)

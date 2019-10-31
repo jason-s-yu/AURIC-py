@@ -1,0 +1,10 @@
+Ancillary Lyman alpha evaluation parameters:
+         1   IGEO       : geocoronal model flag (0=Chamberlain(63),1=Bishop(91))
+    1000.0   SATT       : definition depends on IGEO value
+      -1.0   SATD       : definition depends on IGEO value
+      -1.0   ZAZI       : LOS azimuth with respect to solar direction (deg)
+      -1.0   LYALCF     : solar lyman alpha line center flux (if > 0)
+      -1.0   D_EXO      : exobase [H] density (if > 0)
+      -1.0   FLUX       : [H] vertical diffusive flux (if > 0)
+      -1.0   D_MAX      : mesospheric peak [H] (if > 0)
+
