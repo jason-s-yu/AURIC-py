@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator, AutoMinorLocator
 
 import xarray as xr
-from dask.diagnostics import ProgressBar
 
 import numpy as np
 

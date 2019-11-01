@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 
 import xarray as xr
-from dask.diagnostics import ProgressBar
 
 import numpy as np
 
