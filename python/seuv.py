@@ -32,4 +32,6 @@ plt.legend()
 plt.xscale('log')
 
 plt.tight_layout()
-plt.show()
+
+savedir = input('Entire file path in which to save the figure (../out/seuv.png): ')
+plt.savefig(fname=savedir if savedir else '../out/seuv.png')

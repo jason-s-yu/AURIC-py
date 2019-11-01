@@ -31,4 +31,6 @@ ax.set_xlim(0, 1100)
 plt.yscale('log')
 
 plt.tight_layout()
-plt.show() 
+
+savedir = input('Entire file path in which to save the figure (../out/euv.png): ')
+plt.savefig(fname=savedir if savedir else '../out/euv.png')

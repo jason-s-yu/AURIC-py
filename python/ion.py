@@ -25,5 +25,6 @@ ax.set_xlim(1E4)
 plt.xscale('log')
 
 plt.tight_layout()
-plt.savefig(fname='../out/ion.png')
-# plt.show()
+
+savedir = input('Entire file path in which to save the figure (../out/ion.png): ')
+plt.savefig(fname=savedir if savedir else '../out/ion.png')

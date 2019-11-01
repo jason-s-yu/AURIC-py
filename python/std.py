@@ -38,4 +38,6 @@ plt.legend()
 plt.xscale('log')
 
 plt.tight_layout()
-plt.show()
+
+savedir = input('Entire file path in which to save the figure (../out/std.png): ')
+plt.savefig(fname=savedir if savedir else '../out/std.png')

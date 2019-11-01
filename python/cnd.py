@@ -32,5 +32,6 @@ plt.legend()
 plt.xscale('log')
 
 plt.tight_layout()
-plt.savefig(fname='../out/cnd.png')
-# plt.show()
+
+savedir = input('Entire file path in which to save the figure (../out/cnd.png): ')
+plt.savefig(fname=savedir if savedir else '../out/cnd.png')
