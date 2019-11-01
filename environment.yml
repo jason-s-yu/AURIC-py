@@ -1,0 +1,17 @@
+name: AURIC-py
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.6                # Python version 3.6
+    - dask                      # Parallel processing library
+    - matplotlib                # 2D plotting library
+    - numpy                     # N-d array and numerics
+    - pandas                    # Labeled array library
+    - scipy                     # Common math/stats/science functions
+    - scikit-learn              # Macine learning library
+    - scikit-image              # Image processing routines
+    - statsmodels               # Regression/modeling toolkit
+    - seaborn                   # Statistical visualizations
+    - tqdm                      # Nice progressbar for longer computations
+    - xarray                    # N-d labeled array library

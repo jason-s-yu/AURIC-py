@@ -21,7 +21,8 @@ Radiative Transfer 62 (1999) 689-742), adapted for Python.
     If you are using Anaconda, you may use the environment file provided by running the command:
 
     ```bash
-    conda install environment.yml
+    conda env create -f environment.yml
+    conda activate AURIC-py
     ```
 
     Otherwise, you may `pip install` the packages if you do not yet have them installed:
