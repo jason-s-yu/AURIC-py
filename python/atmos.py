@@ -1,3 +1,8 @@
+"""
+Neutral Chemical Densities (cm^3)
+"""
+import sys
+
 import matplotlib.pyplot as plt
 
 import xarray as xr
@@ -35,5 +40,9 @@ plt.xscale('log')
 
 plt.tight_layout()
 
-savedir = input('Entire file path in which to save the figure (../out/atmos.png): ')
-plt.savefig(fname=savedir if savedir else '../out/atmos.png')
+try:
+    savedir = input('Entire file path in which to save the figure (../out/atmos.png): ')
+    plt.savefig(fname=savedir if savedir else '../out/atmos.png')
+except KeyboardInterrupt:
+    print('\nAborting')
+    sys.exit()

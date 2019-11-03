@@ -44,5 +44,5 @@ try:
     savedir = input('Entire file path in which to save the figure (../out/std.png): ')
     plt.savefig(fname=savedir if savedir else '../out/std.png')
 except KeyboardInterrupt:
-    print('Aborting.')
+    print('\nAborting')
     sys.exit()

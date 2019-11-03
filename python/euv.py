@@ -1,6 +1,7 @@
 """
 Solar EUV Flux (photons cm^-2 s^-1)
 """
+import sys
 
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator, AutoMinorLocator
@@ -31,5 +32,9 @@ plt.yscale('log')
 
 plt.tight_layout()
 
-savedir = input('Entire file path in which to save the figure (../out/euv.png): ')
-plt.savefig(fname=savedir if savedir else '../out/euv.png')
+try:
+    savedir = input('Entire file path in which to save the figure (../out/euv.png): ')
+    plt.savefig(fname=savedir if savedir else '../out/euv.png')
+except KeyboardInterrupt:
+    print('\nAborting')
+    sys.exit()

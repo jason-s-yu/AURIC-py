@@ -1,6 +1,7 @@
 """
 Slant Solar EUV Photoabsorption Deposition Rates (eV cm^-3 s^-1)
 """
+import sys
 
 import matplotlib.pyplot as plt
 
@@ -32,5 +33,9 @@ plt.xscale('log')
 
 plt.tight_layout()
 
-savedir = input('Entire file path in which to save the figure (../out/seuv.png): ')
-plt.savefig(fname=savedir if savedir else '../out/seuv.png')
+try:
+    savedir = input('Entire file path in which to save the figure (../out/seuv.png): ')
+    plt.savefig(fname=savedir if savedir else '../out/seuv.png')
+except KeyboardInterrupt:
+    print('\nAborting')
+    sys.exit()

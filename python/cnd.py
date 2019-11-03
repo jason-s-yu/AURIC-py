@@ -1,3 +1,8 @@
+"""
+Slant Column Density (cm^2)
+"""
+import sys
+
 import matplotlib.pyplot as plt
 
 import xarray as xr
@@ -32,5 +37,9 @@ plt.xscale('log')
 
 plt.tight_layout()
 
-savedir = input('Entire file path in which to save the figure (../out/cnd.png): ')
-plt.savefig(fname=savedir if savedir else '../out/cnd.png')
+try:
+    savedir = input('Entire file path in which to save the figure (../out/cnd.png): ')
+    plt.savefig(fname=savedir if savedir else '../out/cnd.png')
+except KeyboardInterrupt:
+    print('\nAborting')
+    sys.exit()
