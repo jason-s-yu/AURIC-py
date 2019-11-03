@@ -16,13 +16,20 @@ Radiative Transfer 62 (1999) 689-742), adapted for Python.
    * `dask` for parallel processing
    * `matplotlib` for plotting
    * `numpy` for numerical computations
-   * `xarray` to handle NetCDF4 files and to facilitate binary conversion
+   * `xarray` to handle netCDF files and to facilitate binary conversion
+   * `netcdf4` for netCDF4 support
 
     If you are using Anaconda, you may use the environment file provided by running the command:
 
     ```bash
     conda env create -f environment.yml
     conda activate AURIC-py
+    ```
+
+    To update an existing environment, run
+
+    ```bash
+    conda env update -f environment.yml.yml
     ```
 
     Otherwise, you may `pip install` the packages if you do not yet have them installed:

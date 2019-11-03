@@ -1,4 +1,6 @@
-import matplotlib.pyplot as plt
+import sys
+
+import matplotlib.pyplot as plt 
 
 import xarray as xr
 
@@ -38,5 +40,9 @@ plt.xscale('log')
 
 plt.tight_layout()
 
-savedir = input('Entire file path in which to save the figure (../out/std.png): ')
-plt.savefig(fname=savedir if savedir else '../out/std.png')
+try:
+    savedir = input('Entire file path in which to save the figure (../out/std.png): ')
+    plt.savefig(fname=savedir if savedir else '../out/std.png')
+except KeyboardInterrupt:
+    print('Aborting.')
+    sys.exit()
