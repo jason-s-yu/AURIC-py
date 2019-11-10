@@ -15,4 +15,5 @@ dependencies:
     - seaborn                   # Statistical visualizations
     - tqdm                      # Nice progressbar for longer computations
     - xarray                    # N-d labeled array library
+    - metpy                     # fix xarray dependency issue
     - netcdf4                   # netcdf support for xarray
